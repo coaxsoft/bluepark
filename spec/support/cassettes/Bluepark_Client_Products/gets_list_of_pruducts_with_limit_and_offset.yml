@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/?limit=1&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 08:44:32 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - collection
+      X-Response-Count:
+      - '1'
+      X-Resource-Name:
+      - products
+      X-Resource-Count:
+      - '10'
+      X-Resource-Pages:
+      - '10'
+      X-Resource-Limit:
+      - '1'
+      X-Resource-Page:
+      - '2'
+      Last-Modified:
+      - Tue, 11 Jul 2017 08:37:21 GMT
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '882'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1837'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 08:44:32 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/?limit=1&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 08:44:32 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - collection
+      X-Response-Count:
+      - '1'
+      X-Resource-Name:
+      - products
+      X-Resource-Count:
+      - '10'
+      X-Resource-Pages:
+      - '10'
+      X-Resource-Limit:
+      - '1'
+      X-Resource-Page:
+      - '3'
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '881'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1671'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 08:44:33 GMT
+recorded_with: VCR 3.0.3

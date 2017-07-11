@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/orders
+    body:
+      encoding: UTF-8
+      string: '{"email_address":"example@example.com","billing_address":{"first_name":"Test","last_name":"Test","address_line_1":"Fake
+        Street 1","town_city":"Bucharest","postcode":"750110","country_code":"UK"}}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '195'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:19:33 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - orders
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '845'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '143'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1WLQQ7CIBBF78LagCy64SpimimMltDChJmaGOPdJcrG3Xs/
+        779UaAiCUTl7UgfFH587l7BCuQ+jVgMyD8Md0sYzY5FvS/DcO/MskLH8T7ee
+        jttWA0iqhZW7qFWE2HnjzUJ2mvSCAgQt61D1kb0BSt48rDe1RWzsjbXq+v4A
+        YN4pebAAAAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:19:33 GMT
+recorded_with: VCR 3.0.3

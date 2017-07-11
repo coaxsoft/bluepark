@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://bp155.betapark.co.uk/api/v1/products/2
+    body:
+      encoding: UTF-8
+      string: '{"sku":"ABC2","title":"Test product"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '37'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 08:44:33 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/2
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '878'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '76'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWKi1ISSxJTVGyMtRRKs1LzkjMSwfxDHSUCoryU0qTS4rjkZUgBFHUliUWZSbmIasFGoAQRFJbCwBnZ/vtcwAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 08:44:34 GMT
+recorded_with: VCR 3.0.3

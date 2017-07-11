@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/orders/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:19:32 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - orders/2
+      Last-Modified:
+      - Tue, 11 Jul 2017 09:17:10 GMT
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '846'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '902'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1WTY/jNgz9KwNfm03sLAYBcir20MWiQLtAt6emMGSJHguR
+        JUEfmQ0G+99LSrKdj8lh7z3NmKQo8vE9Km/V4KCv9tUQgvX7w+aw6Wzz/Lzu
+        IDDL3HHNzToeDxtm5WFzag4b4wQ4f9hsq1U1gLI/c5bipwx4XIpqv11VKWOr
+        49iBw2xf/mjqmrLzgWkNqtq/pch6VWk2AkagL58p5psE1Q9MrU9GcliyzmcE
+        C5RjWze7D/XuQ9N8a7b7Zrdv6l/qj/u6prrK4btQ9IkI7bt2UPIE7jw5KRS8
+        ZYEPFyYfWIh+6qiZO/oKWkj9QpXz6IMZ2+vIi94xxDJqvGfKQ/5ojc6wWMU4
+        iLY742f0CCfmM6NVENA6BS2WFIcxFJrArKh9GJlULRPCgcdaK/jOKMWv5S8y
+        YsQoppR5bbnRgfFQ7YOLWExK9OJMRFrcTQ0rZ5ybqEO6S0elVlUnlcLOl+ve
+        qiCDKmNO/y6V9dL50BYWfAMfsA7F7kzUINPnKZCKzc20eBW0Dfb0GzvC01/B
+        AYSn5jZgm1EJ5lW3XAYC6VNENmIKujG1UJCzxgduBJW7e66fmoYATAGOIv7W
+        EpF/+h07FAm14kLc0pnPn+geUGAHg5XNGkDriWGnkybwu8fJdsYcMxpoQN2C
+        A80TVIitmBg4T+5/KDNSE8dGUmOmahKaI/jOyyy+FthdXhH1Om0DGkTHPFmk
+        5iQydh4BSTxCGAwO4w1DVCS/6XtiWNY+d9IGmUT352znzIk2nG3hd/oU8kUG
+        EhpNcUrOB+DHtCl6VGNE6hV1spO/0CZRFw0XNCSSnQqDP4rbtBN5pmuCCQw3
+        7NTrbJ4rnC0oGGplAsWgIFDrhccEU7HcZjRSB9/iYpjWi82W2zhnROQEwz//
+        riofu+Rv4TtvcQDLxbMHZ/HAcxUvpM8r50G+G/9dVjxsDa6BrNesYDI8SHfl
+        vUv2CvJlKKWUlohhfpDW0hJcGHX34F2pHXeGY/xIR6Kj8RFz5ixE2GsKz65H
+        oE4FZP89tNf+K4AfpHyQKZuvEmBnUQt8n95nDjCnZ+5Ie8H9ZrtbIx3XtL8F
+        nOi5L8pC9R2DsQQt7t8W32Wfhbg4WN9LJZPQ33uoEtyOAMa9zWR5Xherx7Jo
+        lyRGpBc7iWGkxZA0R2/OKIk4j22tjZ2SfH7KRyNkL1Ozj3+e/PgPsTTQDbMJ
+        AAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:19:33 GMT
+recorded_with: VCR 3.0.3

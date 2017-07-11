@@ -1,0 +1,476 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:03:20 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '876'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '11'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":1}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:03:21 GMT
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:04:20 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/2
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '873'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":0}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:04:20 GMT
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:04:30 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/2
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '872'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":0}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:04:30 GMT
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:04:47 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/3
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '871'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":0}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:04:48 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:04:59 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - collection
+      X-Response-Count:
+      - '1'
+      X-Resource-Name:
+      - products
+      X-Resource-Count:
+      - '1'
+      X-Resource-Pages:
+      - '1'
+      X-Resource-Limit:
+      - '100'
+      X-Resource-Page:
+      - '1'
+      Last-Modified:
+      - Tue, 11 Jul 2017 08:53:12 GMT
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '870'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '785'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VVy3LbMAz8lY6udWwrqZvWt7S/kFuc4UASLHFMkSoJ2vFk
+        8u8FJPoRK83UN2nxILEAlk+vWeNxnS2zhqgLy9VsNSu6fLGYFkjQgd9MSzeN
+        m9UMOr2abfPVrPOuiiWF1SzPJlmDprsmWvxPOTiBrrJlPsnCJnKah1+/JWkB
+        XpWuQkb4j29Bysa2QD8ApMmI7REDfUnXYTh6owhfaHAqPFhO/dofMJ9kFto+
+        3xufFbvOaMk2sk6yyrtOhUZ3nTiswQTkEChJbzm+/2cnHUpnSduInD2BawSK
+        HitVG1eAMfujxaNBCKgqILnD7Ty/v5nf3+RSK+epNGln2WBxJ4xYAlvrQmpM
+        qVORaq0FfM22YGJih6seCm5dpdda7tMXKa6q9i5yez4iwXVyKBjFjHk4nlTr
+        NakS/KmsItrq7Cq9w9bFsjnyw4w2jntUYSi97vMeOlcjN9IS2tQVqIZi+dx3
+        eOsKuW8HlwHJ8K+4AzEERciWT8+TzIDnHLrlTP/JVAvaXhVADQ+jBW2uiiog
+        bJCuCtm7SLFAtdUVOiWD3O/DsIDKQIHc+4+auwVS/jBs0/m8j9KltvVhrx4Y
+        CmiMQGKSaZoPnkYHusRKN8aM24OhveocTyyzTz7yavSrc3HQDnXdyASkE44+
+        IfqykYadbGuPOOwfJzmO5Z8IvG58GLcqkCs3EiB3dbvhXxHrGI+hEZLE0mqr
+        29gqXmPlfNVrR4/Dy4e4kKHaaEh3BoNyoonivwOPjYu8vcaVcJpt/sbaeY1p
+        7njHGamYuEEeh2kEIq+LSAevYeuScQtec1kH17Qa6Ve3nexUkkFpF75cIrVz
+        NW9NugrrjYwHE2otmpSmjExPK8oDKk8OZ9DtGLobQ9/G0GIMfR9D92Poxxj6
+        OYby+ZnUK34PksbxozSWmVbQDe533GcuW0hoECoVkFX7oEXOGsdYr5zJqY/r
+        mflEJ8+UpxeVxOv5QPLgoZfXoR+YQZDlOf3kNZWHbtpQa94L9+lleMzz5eJu
+        md9+nd8teS3fnv8CEqptnasHAAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:04:59 GMT
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:05 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/1
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '869'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":1}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:06 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:10 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '868'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '86'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWSi0qyi9SsqpWSs5PSVWyMjEw0VEqyChKLAZylPzySxTc
+        8kvzUpR0lHJTi4sT00GiQanF+aVFyakKeUDpNLB0bS0AQVyfc0oAAAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:11 GMT
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:16 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/2
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '867'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":0}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:16 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:16 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '866'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":"0"}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:17 GMT
+recorded_with: VCR 3.0.3

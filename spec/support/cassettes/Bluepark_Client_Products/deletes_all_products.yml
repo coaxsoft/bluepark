@@ -1,0 +1,101 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://bp155.betapark.co.uk/api/v1/products/all
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:16 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/all
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '865'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '15'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"deleted":"0"}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:17 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:17 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '864'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '13'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":"0"}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:17 GMT
+recorded_with: VCR 3.0.3

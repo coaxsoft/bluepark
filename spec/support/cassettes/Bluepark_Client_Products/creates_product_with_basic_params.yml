@@ -1,0 +1,885 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"ABC1","title":"Test product"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.4.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '37'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 08:44:33 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '879'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '134'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryRihm1zFEZkmwYZKMiSTbop3V1Cpdff+
+        48FfwdfIGgM4e4Au4c3HF2c/cb59ltQSutd2/U02uWsXronzX7vJXXsvnjWV
+        3MCdYVKV5ggJR7HDYMaoLFxn44vpMyFLIlws4feY0J7g8ngClNIb/8UAAAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 08:44:33 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"ABC1","title":"Test product"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '37'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:05:53 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '860'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '93'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWSi5KTSxJTVGyMtBRKi1IQbDzkjMS89JBMoY6SgVF+Sml
+        ySXF8chKEIIoassSizIT89DUIgQRaoE25uQnJ5Zk5ucVK1lFx9YCAElqlteO
+        AAAA
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:05:54 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"ABC1","title":"Test product"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '37'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:00 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '859'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '93'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWSi5KTSxJTVGyMtBRKi1IQbDzkjMS89JBMoY6SgVF+Sml
+        ySXF8chKEIIoassSizIT89DUIgQRaoE25uQnJ5Zk5ucVK1lFx9YCAElqlteO
+        AAAA
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:01 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '27'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:17 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '858'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryRihm1zFEZkmwYZKMiSTbop3V1Cpdff+
+        48FfwdfIGgM4e4Au4c3HF2c/cb59ltQSutd2/U02uWsXronzX7vJXXsvnjWV
+        3MCdYVKV5ggJR7HDYMaoLFxn44vpMyFLIlws4feY8ASXxxPt3YiGxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:17 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc1","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:20 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '857'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '92'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWSi5KTSxJTVGyMtBRKi1IgbANgey85IzEvHSoTEFRfkpp
+        cklxPLIShCCK2rLEoszEPGS1QKMRgihqc/KTE0sy8/OKlayiY2sB8vFtRI4A
+        AAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:21 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc2","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:25 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '856'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryRikm1zFEZkmwYZKMiSTbop3V1Cpdff+
+        48FfwdfIGgM4e4Au4c3HF2c/cb59ltQSutd2/U02uWsXronzX7vJXXsvnjWV
+        3MCdYVKV5ggJR7HDYMaoLFxn44vpMyFLIlws4feY8ASXxxOIujQ+xAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:25 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc3","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:28 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '855'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryRiwm1zFEZkmwYZKMiSTbop3V1Cpdff+
+        48FfwdfIGgM4e4Au4c3HF2c/cb59ltQSutd2/U02uWsXronzX7vJXXsvnjWV
+        3MCdYVKV5ggJR7HDYMaoLFxn44vpMyFLIlws4feY8ASXxxMxguOjxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:29 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc4","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:31 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '854'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQoCMQxF75K1NHbRTa9iRDJtccpIG9p0NuLdFVTGcff+
+        48G/Q2iJNUXw9gBD4puPLy5h5nL9LGk1jqD98ptscteu3DKXv3aTu/ZWA2uu
+        pYM/wawq3RMSTmKdM1NSFm6LCdWMhZAlE66W8HtM6OD8eAJU5V8bxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:32 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc5","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:34 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '853'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryZhFXeQqjsg0CTZUkiGZdFO8u4JKrbv3
+        Hw/+Cr5G1hjA2QN0CW8+vjj7ifPts6SW0L2262+yyV27cE2c/9pN7tp78ayp
+        5AbuDJOqNEdIOIodBjNGZeE6G19MnwlZEuFiCb/HhCe4PJ66SuoJxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:35 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:39 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '852'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '11'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":6}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:39 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc6","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:43 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '851'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryZhFEXIVR2SaBBsqyZBMuineXUGl1t37
+        jwd/BV8jawzg7AG6hDcfX5z9xPn2WVJL6F7b9TfZ5K5duCbOf+0md+29eNZU
+        cgN3hklVmiMkHMUOgxmjsnCdjS+mz4QsiXCxhN9jwhNcHk/fLVaxxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:44 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc7","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:47 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '850'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryZhFQXIVR2SaBBsqyZBMuineXUGl1t37
+        jwd/BV8jawzg7AG6hDcfX5z9xPn2WVJL6F7b9TfZ5K5duCbOf+0md+29eNZU
+        cgN3hklVmiMkHMUOgxmjsnCdjS+mz4QsiXCxhN9jwhNcHk+JPTXpxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:48 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc8","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:50 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '849'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '133'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryZhFF+Yqjsg0CTZUkiGZdFO8u4JKrbv3
+        Hw/+Cr5G1hjA2QN0CW8+vjj7ifPts6SW0L2262+yyV27cE2c/9pN7tp78ayp
+        5AbuDJOqNEdIOIodBjNGZeE6G19MnwlZEuFiCb/HhCe4PJ7sWolRxAAAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:51 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/products/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:54 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '848'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '11'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":9}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:54 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"abc9","title":"hel"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '28'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:06:58 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '847'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '134'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12NQQrCMBBF7zJryTSLbnIVR2SaBBsqyZBMupHeXUGl1t37
+        jwf/Ab5G1hjA2RN0CW8eXpz9zPn2WVJL6F7b9TfZ5aFduSbOf+0uD+29eNZU
+        cgN3hllVmiMknMSOo5misnBdjC+mL4QsiXC1hN9jQjvAZXsCHxoSVcUAAAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:06:59 GMT
+- request:
+    method: post
+    uri: https://bp155.betapark.co.uk/api/v1/products
+    body:
+      encoding: UTF-8
+      string: '{"sku":"ABC1","title":"Test product"}'
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '37'
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:07:01 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - products
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '846'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '92'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6tWSi5KTSxJTVGyMtBRKi1IgbANgey85IzEvHSoTEFRfkpp
+        cklxPLIShCCK2rLEoszEPGS1QKMRgihqc/KTE0sy8/OKlayiY2sB8vFtRI4A
+        AAA=
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:07:01 GMT
+recorded_with: VCR 3.0.3
