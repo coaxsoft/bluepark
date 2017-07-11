@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 
 describe Bluepark::Client::Orders, vcr:true do
   let!(:client) { Bluepark::Client.new(user_name: 'admin', bluepark_api_uri: 'https://bp155.betapark.co.uk/api/v1/', bluepark_token: 'df8df9af61a022bb08dfdae14a6c96428ca53362').orders }
@@ -9,7 +8,7 @@ describe Bluepark::Client::Orders, vcr:true do
     expect(client.get_orders.count).to be_eql(10)
   end
 
-  it 'gets list of pruducts with limit and offset' do
+  it 'gets list of orders with limit and offset' do
     expect(client.get_orders(limit:1, page:2).first["id"]).to be_eql(2)
     expect(client.get_orders(limit:1, page:3).first["id"]).to be_eql(3)
   end

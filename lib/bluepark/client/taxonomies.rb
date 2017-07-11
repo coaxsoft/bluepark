@@ -10,6 +10,6 @@ class Bluepark::Client::Taxonomies
   end
 
   def count
-    @client.rest_get_with_token('taxonomy/count')
+    @client.rest_get_with_token('taxonomy/count')['count']
   end
 end

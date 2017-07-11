@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/taxonomy/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:36:10 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - collection
+      X-Response-Count:
+      - '12'
+      X-Resource-Name:
+      - taxonomy
+      X-Resource-Count:
+      - '12'
+      X-Resource-Pages:
+      - '1'
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '878'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '379'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA42UTU/DMAyG/wrKeXTrxvjoDQESF06btANDU5pFJFrWVq3H
+        Doz/jruvxOoIPtqV/T557fr9W9ilyNKeqGStC1i00aAnwILTi0qCEZmYlWtd
+        iGMyiDe1w8gAVNm8P+/nVToeJ7kGib1WiSqTzWre37bFiYG1ww7KWLdEHZGN
+        fnoH6RsijSBd6d1zrZtGNwGCz7AgULNt0MUQA3ECGTNAJqYkGKeYBdG0xVGE
+        WwbCqyyWufwMzQhSLBBzbBFlGUZX4o0sxCFiaV9chuFpBndEFBHIMqDMblpW
+        4dOPIUsasDT65Pt/1WcSlCEb4DMshu2hQRRjFHX+xWkFtVXShT7QLAtF+0Zd
+        nPNEHggMopGJBLK7KTb8so0tCzIgkmWBgS+J+pTinQquVoztUSk8AGVtyexo
+        lsUmfaOIaSm9py3on7YFEIGFVxPAn/Sykf4bC9nbed3sm8ZNpf89G/1J5o6Y
+        e06wINW+/DLZxy+uI+gEpQYAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:36:10 GMT
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/taxonomy/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:36:14 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - collection
+      X-Response-Count:
+      - '12'
+      X-Resource-Name:
+      - taxonomy
+      X-Resource-Count:
+      - '12'
+      X-Resource-Pages:
+      - '1'
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '877'
+      Vary:
+      - Accept-Encoding,User-Agent
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '379'
+      Content-Type:
+      - application/json
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA42UTU/DMAyG/wrKeXTrxvjoDQESF06btANDU5pFJFrWVq3H
+        Doz/jruvxOoIPtqV/T557fr9W9ilyNKeqGStC1i00aAnwILTi0qCEZmYlWtd
+        iGMyiDe1w8gAVNm8P+/nVToeJ7kGib1WiSqTzWre37bFiYG1ww7KWLdEHZGN
+        fnoH6RsijSBd6d1zrZtGNwGCz7AgULNt0MUQA3ECGTNAJqYkGKeYBdG0xVGE
+        WwbCqyyWufwMzQhSLBBzbBFlGUZX4o0sxCFiaV9chuFpBndEFBHIMqDMblpW
+        4dOPIUsasDT65Pt/1WcSlCEb4DMshu2hQRRjFHX+xWkFtVXShT7QLAtF+0Zd
+        nPNEHggMopGJBLK7KTb8so0tCzIgkmWBgS+J+pTinQquVoztUSk8AGVtyexo
+        lsUmfaOIaSm9py3on7YFEIGFVxPAn/Sykf4bC9nbed3sm8ZNpf89G/1J5o6Y
+        e06wINW+/DLZxy+uI+gEpQYAAA==
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:36:15 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bp155.betapark.co.uk/api/v1/skus/count
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/json
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (linux-gnu x86_64) ruby/2.3.0p0
+      Authorization:
+      - Basic YWRtaW46ZGY4ZGY5YWY2MWEwMjJiYjA4ZGZkYWUxNGE2Yzk2NDI4Y2E1MzM2Mg==
+      Content-Type:
+      - application/json
+      Host:
+      - bp155.betapark.co.uk
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jul 2017 09:30:33 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Type:
+      - singleton
+      X-Resource-Name:
+      - skus/count
+      X-Requests-Limit:
+      - '1000'
+      X-Requests-Remaining:
+      - '863'
+      Vary:
+      - User-Agent
+      Content-Length:
+      - '12'
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: '{"count":10}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 09:30:33 GMT
+recorded_with: VCR 3.0.3
