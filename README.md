@@ -16,7 +16,8 @@ Or install it yourself as:
 
 ## Usage
 
-For full understaning check out [Bluepark Api Specification](https://www.bluepark.co.uk/api-specification.html).
+For full understaning check out 
+[Bluepark Api Specification](https://www.bluepark.co.uk/api-specification.html).
 
 Initialize your client:
 
@@ -34,7 +35,8 @@ Like:
 client.products.get_products
 client.products.get_product(id)
 ```
-For full listing of methods check [Products methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Products')
+For full listing of methods check 
+[Products methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Products')
 
 
 To work with orders:
@@ -46,7 +48,8 @@ Like:
 client.orders.get_orders
 client.orders.get_order(id)
 ```
-For full listing of methods check [Orders methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Orders').
+For full listing of methods check 
+[Orders methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Orders').
 Full listing of all classes and methods is available here:
 [Rubydoc](http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark)
 # Exception handling
