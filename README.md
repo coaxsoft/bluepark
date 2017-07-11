@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/bluepark.svg)](https://badge.fury.io/rb/bluepark)
 # Bluepark Ruby Gem
 
 ## Installation
