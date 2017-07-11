@@ -37,7 +37,7 @@ client.products.get_products
 client.products.get_product(id)
 ```
 For full listing of methods check 
-[Products methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Products')
+[Products methods](http://www.rubydoc.info/gems/bluepark/Bluepark/Client/Products)
 
 
 To work with orders:
@@ -50,9 +50,9 @@ client.orders.get_orders
 client.orders.get_order(id)
 ```
 For full listing of methods check 
-[Orders methods]('http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark/Client/Orders').
+[Orders methods](http://www.rubydoc.info/gems/bluepark/Bluepark/Client/Orders).
 Full listing of all classes and methods is available here:
-[Rubydoc](http://www.rubydoc.info/gems/bluepark/1.0.1/Bluepark)
+[Rubydoc](http://www.rubydoc.info/gems/bluepark)
 # Exception handling
 
 Gem throws ```BlueparkException``` like this:
