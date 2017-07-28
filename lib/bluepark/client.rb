@@ -2,7 +2,6 @@ require 'rest-client'
 require 'base64'
 require 'oj'
 require 'pry'
-require 'active_support/core_ext/string'
 class Bluepark::Client
   attr_accessor :bluepark_token, :user_name, :bluepark_api_uri
   STATUS_CODES = { 200 => 'success',
@@ -29,7 +28,7 @@ class Bluepark::Client
   end
 
   def decode_json(json)
-    Oj.load(json) if json.present?
+    Oj.load(json) if json != ''
   end
 
   def decode_status(response)
