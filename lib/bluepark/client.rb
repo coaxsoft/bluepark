@@ -2,6 +2,7 @@ require 'rest-client'
 require 'base64'
 require 'oj'
 require 'pry'
+require 'active_support/core_ext/string'
 class Bluepark::Client
   attr_accessor :bluepark_token, :user_name, :bluepark_api_uri
   STATUS_CODES = { 200 => 'success',
