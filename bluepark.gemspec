@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.files       = Dir['lib/**/*','bluepark.gemspec']
   s.license       = 'MIT'
-  s.add_development_dependency 'bundler', '~> 1.14.6'
+  s.add_development_dependency 'bundler', '~> 1.15.1'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rake', '~> 12.0.0'
   s.add_development_dependency 'pry'
