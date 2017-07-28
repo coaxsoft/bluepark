@@ -28,7 +28,7 @@ class Bluepark::Client
   end
 
   def decode_json(json)
-    Oj.load(json)
+    Oj.load(json) if json.present?
   end
 
   def decode_status(response)
