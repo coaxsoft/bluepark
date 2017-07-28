@@ -3,8 +3,8 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |s|
   s.name        = 'bluepark'
-  s.version     = '1.0.1'
-  s.date        = '2017-07-10'
+  s.version     = '1.0.2'
+  s.date        = '2017-07-28'
   s.summary     = "Ruby client library for the Bluepark API"
   s.description = "A simple client created to help with Bluepark integration"
   s.authors     = ["Andriy Byalyk"]
