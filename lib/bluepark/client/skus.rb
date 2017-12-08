@@ -20,4 +20,8 @@ class Bluepark::Client::Skus
   def update_single_sku(sku_id, sku_params)
     @client.rest_put_with_token("skus/#{sku_id}", sku_params)
   end
+
+  def update_skus(sku_id, sku_params)
+    @client.rest_put_with_token("skus/", sku_params)
+  end
 end
